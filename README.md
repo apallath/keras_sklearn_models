@@ -13,9 +13,7 @@ Classification (supervised/classification_basic.ipynb,classification_adv.ipynb)
 - k-Nearest Neighbours classification
 - Logistic Regression
 - Logistic Regression using polynomial features
-- SVM with linear kernel, binary classification
-- SVM with Gaussian kernel
-- Multi-class classification
+- SVM with linear kernel, binary classification, multi-class classification
 
 Regression (supervised/regression.ipynb)
 - k-Nearest Neighbours regression
@@ -23,6 +21,3 @@ Regression (supervised/regression.ipynb)
 - Ridge Regression (Regularization)
 - Ridge Regression with feature scaling
 - Polynomial Regression
-
-Clustering (unsupervised/clustering.ipynb)
-- k-Means clustering
