@@ -15,7 +15,7 @@ Classification (supervised/classification_basic.ipynb,classification_adv.ipynb)
 - Logistic Regression using polynomial features
 - SVM with linear kernel, binary classification, multi-class classification
 - Decision Tree
-- Naive Bayes
+- Gaussian Naive Bayes
 - Random Forest
 
 Regression (supervised/regression.ipynb)
