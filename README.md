@@ -1,6 +1,6 @@
 # Learning Applied Machine Learning
 
-This repository contains a collection of Jupyter notebooks (and MATLAB Code) I've written while learning the basics of (applied) Machine Learning (and data science).
+This repository contains a collection of Jupyter notebooks I've written while learning the basics of (applied) Machine Learning (and data science).
 
 Resources consulted while preparing these notebooks are listed in the first markdown cell of each notebook.
 
