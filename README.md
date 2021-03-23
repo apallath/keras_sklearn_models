@@ -1,15 +1,11 @@
-# Learning Applied Machine Learning
+# Basic machine learning algorithms
 
-This repository contains a collection of Jupyter notebooks I've written while learning the basics of (applied) Machine Learning (and data science).
+A collection of Jupyter notebooks I've written to try out basic ML algorithms (mostly scikit-learn implementations) on common datasets. The notebooks on pandas, classification and regression are from undergrad, and the notebook on clustering is from early-on in grad school.
 
-Resources consulted while preparing these notebooks are listed in the first markdown cell of each notebook.
-
-Python libraries used: numpy, matplotlib, pandas, scikit-learn
-
-Pandas (pandas/pandas.ipynb)
+## Pandas (pandas/pandas.ipynb)
 - Dataframes
 
-Classification (supervised/classification_basic.ipynb,classification_adv.ipynb)
+## Classification (supervised/classification_basic.ipynb,classification_adv.ipynb)
 - k-Nearest Neighbours classification
 - Logistic Regression
 - Logistic Regression using polynomial features
@@ -18,12 +14,15 @@ Classification (supervised/classification_basic.ipynb,classification_adv.ipynb)
 - Gaussian Naive Bayes
 - Random Forest
 
-Regression (supervised/regression.ipynb)
+## Regression (supervised/regression.ipynb)
 - k-Nearest Neighbours regression
 - Linear Regression
 - Ridge Regression (Regularization)
 - Ridge Regression with feature scaling
 - Polynomial Regression
 
-Clustering (unsupervised/clustering.ipynb)
-- k-Means clustering
+## Clustering (unsupervised/clustering.ipynb)
+- k-Means Clustering
+- DBSCAN
+- Spectral Clustering
+- Markov Clustering (markov_clustering Python module)
