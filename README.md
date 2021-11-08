@@ -1,11 +1,32 @@
-# Basic machine learning algorithms
+# Deep learning models for image (vision) data [in `dl_vision/`]
 
-A collection of Jupyter notebooks I've written to try out basic ML algorithms (mostly scikit-learn implementations) on common datasets. The notebooks on pandas, classification and regression are from undergrad, and the notebook on clustering is from early-on in grad school.
+## Transfer learning and interpretation on the Cats-vs-Dogs dataset (`cats_vs_dogs_models/`)
 
-## Pandas (pandas/pandas.ipynb)
-- Dataframes
+## Models
+- Vanilla CNN (baseline) - 71% acc [cats_vs_dots_cnn.ipynb](https://github.com/apallath/cats_vs_dogs_models/blob/main/cats_vs_dogs_CNN.ipynb)
+- Vanilla CNN with data augmentation and dropout - 85% acc [cats_vs_dots_cnn.ipynb](https://github.com/apallath/cats_vs_dogs_models/blob/main/cats_vs_dogs_CNN.ipynb)
+- Fine-tuned VGG19 model with data augmentation and dropout - 93% acc [cats_vs_dots_VGG19.ipynb](https://github.com/apallath/cats_vs_dogs_models/blob/main/cats_vs_dogs_VGG19.ipynb)
+- Fine-tuned ResNet50 model with data augmentation and dropout - 96% acc [cats_vs_dots_ResNet50.ipynb](https://github.com/apallath/cats_vs_dogs_models/blob/main/cats_vs_dogs_ResNet50.ipynb)
 
-## Classification (supervised/classification_basic.ipynb,classification_adv.ipynb)
+## Model interpretation
+- Visualizing layer activations on a test image for fine-tuned VGG19 and ResNet50 [cats_vs_dots_layer_activations.ipynb](https://github.com/apallath/cats_vs_dogs_models/blob/main/cats_vs_dogs_layer_activations.ipynb)
+- Filter visualization using gradient-ascent for fine-tuned ResNet50 [cats_vs_dots_grad_ascent.ipynb](https://github.com/apallath/cats_vs_dogs_models/blob/main/cats_vs_dogs_grad_ascent.ipynb)
+- Grad-CAM visualization for fine-tuned ResNet50 [cats_vs_dots_grad_cam.ipynb](https://github.com/apallath/cats_vs_dogs_models/blob/main/cats_vs_dogs_grad_cam.ipynb)
+
+## Deep Dream (`deep_dream/`)
+- Deep Dream
+
+## Classification and generation on the Fashion-MNIST dataset (`fashion_mnist_models/`)
+
+### Classification models
+- Vanilla CNN - 91% acc.
+
+### Latent-space generative models
+- Convolutional variational autoencoder for image generation
+
+# Machine learning algorithms for tabular data [in `ml_tab/`]
+
+## Classification (`supervised/classification_basic.ipynb`, `supervised/classification_adv.ipynb`)
 - k-Nearest Neighbours classification
 - Logistic Regression
 - Logistic Regression using polynomial features
@@ -14,14 +35,14 @@ A collection of Jupyter notebooks I've written to try out basic ML algorithms (m
 - Gaussian Naive Bayes
 - Random Forest
 
-## Regression (supervised/regression.ipynb)
+## Regression (`supervised/regression.ipynb`)
 - k-Nearest Neighbours regression
 - Linear Regression
 - Ridge Regression (Regularization)
 - Ridge Regression with feature scaling
 - Polynomial Regression
 
-## Clustering (unsupervised/clustering.ipynb)
+## Clustering (`unsupervised/clustering.ipynb`)
 - k-Means Clustering
 - DBSCAN
 - Spectral Clustering
