@@ -1,4 +1,4 @@
-# Deep learning models for image (vision) data [in `dl_vision/`]
+# Deep learning models for image data [in `dl_vision/`]
 
 ## Transfer learning and interpretation on the Cats-vs-Dogs dataset (`cats_vs_dogs_models/`)
 
