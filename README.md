@@ -1,7 +1,3 @@
-# Deep learning models for text/natural language data [in `dl_nlp`]
-
-WIP
-
 # Deep learning models for image data [in `dl_vision/`]
 
 ## Transfer learning and interpretation on the Cats-vs-Dogs dataset (`cats_vs_dogs_models/`)
